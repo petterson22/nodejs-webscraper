@@ -6,7 +6,7 @@ const app = express()
 const cors = require('cors')
 app.use(cors())
 
-const url = 'https://www.theguardian.com/uk'
+const url = 'https://www.theguardian.com/'
 
 app.get('/', function (req, res) {
     res.json('This is my webscraper')
